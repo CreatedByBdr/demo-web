@@ -1,5 +1,7 @@
 # Devops Web App
-
+### devops improvements
+#### Dockerfile
+1- use multistage dockerfile config (if needed)
 
 ### install the node packages for the web tier:
 ```sh
