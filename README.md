@@ -1,5 +1,7 @@
 # Devops Web App
-
+### devops improvements
+#### Dockerfile
+1- use multistage dockerfile config (if needed)
 
 ### install the node packages for the web tier:
 ```sh
@@ -16,3 +18,4 @@
 - API_HOST: the full url to call the API app
 
 These two variables need to be set 
+
