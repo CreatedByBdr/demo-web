@@ -23,8 +23,8 @@ jobs:
         uses: google-github-actions/auth@v0
         with:
           token_format: access_token
-          workload_identity_provider:  projects/106927844725/locations/global/workloadIdentityPools/github/providers/general #${{ secrets.WIF }}
-          service_account:  general-deploy@western-emitter-379114.iam.gserviceaccount.com #${{ secrets.WIF_SA }}
+          workload_identity_provider:  ${{ secrets.WIF }}
+          service_account:  ${{ secrets.WIF_SA }}
       - name: Login to GCR
         uses: docker/login-action@v2
         with:
