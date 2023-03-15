@@ -64,7 +64,7 @@ jobs:
     runs-on: ubuntu-latest
     environment:
       name: Production
-      url: https://api.gcpdevops.fr
+      url: https://demo.gcpdevops.fr
     permissions:
       contents: 'read'
       id-token: 'write'
