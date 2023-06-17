@@ -1,4 +1,4 @@
-FROM node:18.15.0-alpine3.17
+FROM node:lts-alpine3.17
 ENV NODE_ENV production
 ENV PORT 8080
 USER node
